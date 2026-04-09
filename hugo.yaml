@@ -1,0 +1,16 @@
+baseURL: 'https://example.org/'
+languageCode: 'ru-ru'
+title: 'dwr𝔣'
+theme: 'PaperMod'
+buildFuture: true
+timeZone: "Europe/Moscow"
+publishDir: "/var/www/hugo/public"
+
+params:
+  disableThemeToggle: true
+  defaultTheme: light
+  disableSpecial1stPost: true
+  showFullTextContent: false
+  #layout: "list"
+  homeInfoParams:
+    enabled: false
